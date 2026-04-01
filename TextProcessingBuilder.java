@@ -1,15 +1,3 @@
-/*
- * Difference between StringBuilder and StringBuffer:
- *
- * StringBuffer  : Thread-safe (synchronized). Slower due to synchronization.
- *                 Use when multiple threads access the same string object.
- *
- * StringBuilder : Not thread-safe (not synchronized). Faster than StringBuffer.
- *                 Use when only a single thread accesses the string object.
- *
- * Both are mutable and have the same methods (append, insert, delete, reverse).
- * Prefer StringBuilder for single-threaded programs for better performance.
- */
 
 class TextProcessingBuilder {
     void process() {
